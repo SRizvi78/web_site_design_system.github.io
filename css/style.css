@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0px 0px;
+    width: 100%;
+    background-image: url("../images/siyan-ren-5cwPfMLqYs0-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item1, .item2, .item3 {
+    background-color: #fff;
+}
+p {
+    font-family: 'Noto Serif', serif;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+header, main {
+    width: 100%;
+}
+header {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+header > h1 {
+    font-size: 2.2rem;
+    color: #161616;
+}
+.container h2 {
+    font-size: 30px;
+}
+.item1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 20px;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 0px 0px 8px #1B1B1E;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 20px;
+    background-image: url("../images/pexels-steve-johnson-1585325.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: box-shadow 500ms ease-out;
+    -webkit-transition: box-shadow 500ms ease-out;
+    -moz-transition: box-shadow 500ms ease-out;
+    -ms-transition: box-shadow 500ms ease-out;
+    -o-transition: box-shadow 500ms ease-out;
+}
+.item1:hover {
+    box-shadow: 0px 0px 1px;
+}
+.flex-container1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.colorBox {
+    width: 31%;
+    height: 100px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorBox h3 {
+    line-height: 1.6;
+    font-weight: 500;
+}
+.num1 {
+    background-color: #191919;
+    color: aliceblue;
+}
+.num2 {
+    background-color: #9FD8CB;
+    color: aliceblue;
+}
+.num3 {
+    background-color: #2D3319;
+    color: aliceblue;
+}
+.num4 {
+    background-color: #DDB771;
+}
+.num5 {
+    background-color: #FFBF00;
+}
+.num6 {
+    background-color: #6D676E;
+    color: aliceblue;
+}
+.item2 {
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 8px #1B1B1E;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    background-image: url("../images/pexels-ovan-57690\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 0px 0px 4px black, 0px -2px 4px black;
+    transition: box-shadow 500ms ease-out;
+    -webkit-transition: box-shadow 500ms ease-out;
+    -moz-transition: box-shadow 500ms ease-out;
+    -ms-transition: box-shadow 500ms ease-out;
+    -o-transition: box-shadow 500ms ease-out;
+}
+.item2:hover {
+    box-shadow: 0px 0px 2px #1B1B1E;
+}
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.fontbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 15px;
+    width: 45%;
+}
+.fontbox h3{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.fontbox p {
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.nu1 h3, .nu1 p {
+    font-family: 'Roboto', sans-serif;
+}
+.nu2 h3, .nu2 p{
+    font-family: 'Raleway', sans-serif;
+}
+.nu3 h3, .nu3 p {
+    font-family: 'Cormorant Garamond', serif;
+}
+.normal {
+    font-weight: 500;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+.item3 {
+    width: 80%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 10px auto;
+   align-items: flex-start;
+    justify-content: center;
+    box-shadow: 0px 0px 2px #1B1B1E;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 20px;
+    background-image: url("../images/pexels-alex-andrews-861449.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    text-shadow: 0px 0px 4px whitesmoke, 0px -2px 4px whitesmoke;
+}
+.flex-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    padding: 5px 20px;
+}
+.stylebox {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.stylebox li {
+    font-size: 16px;
+    font-family: 'Noto Serif', serif;
+}
+.item3 h2 {
+    margin: 0px;
+    padding: 30px 20px;
+}
+.stylebox h1, .stylebox h2, .stylebox h3, .stylebox p {
+    margin: 5px 0px;
+    padding: 0px 0px;
+}
+.stylebox h2 {
+    font-size: 24px;
+}
+.stylebox h1 {
+    font-size: 2rem;
+}
+.item1 h2 {
+    color: #fff;
+}
+.item2 a {
+    padding: 10px 20px;
+    text-shadow: 0px 0px 0px;
+    border: 1px solid #2D3319;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: background-color 700ms;
+    -webkit-transition: background-color 700ms;
+    -moz-transition: background-color 700ms;
+    -ms-transition: background-color 700ms;
+    -o-transition: background-color 700ms;
+    background-color: #6D676E;
+}
+.item2 h3 {
+    text-decoration: none;  
+}
+.item2 a:hover {
+    background-color: #2D3319;
+    text-shadow: 0px 0px 0px;
+    transition: color 700ms;
+    -webkit-transition: color 700ms;
+    -moz-transition: color 700ms;
+    -ms-transition: color 700ms;
+    -o-transition: color 700ms;
+}
+.item2 a:active {
+    color: #DDB771;
+}
+header h1, .stylebox h1 {
+    font-family: 'Noto Serif', serif;
+}
+@media only screen and (max-width: 1024px) {
+    .item1, .item2, .item3, header {
+        width: 95%;
+    }
+
+}
+@media only screen and (max-width: 565px) {
+    .colorBox h3 {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .colorBox h3 {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 970px) {
+    .fontbox p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .fontbox p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 671px) {
+    .fontbox h3 {
+        font-size: 12px;
+    }
+    .nu3 a {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .nu3 a {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .nu3 h3 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 328px) {
+    .nu3 h3 {
+        font-size: 8px;
+    }  
+}
+@media only screen and (max-width: 520px) {
+    header h1 {
+        font-size: 20px;
+    }
+}
